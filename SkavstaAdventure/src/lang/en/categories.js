@@ -5,5 +5,8 @@ export default {
 		departure:'Departure',
 		information:'Information',
 		contact:'Contact / About us'
-	}
+	},
+		header:{
+			title:'Swedish Outdoor Experience'
+		}
 }

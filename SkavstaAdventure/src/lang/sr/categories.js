@@ -6,5 +6,8 @@ export default {
 		information:'Informacije',
 		contact:'Kontakt / O nama'
 
+	},
+	header : {
+		title:'Švedsko iskustvo na otvorenom',
 	}
 }
