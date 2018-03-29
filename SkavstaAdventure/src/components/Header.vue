@@ -7,18 +7,18 @@
     </div>
     <div class="row header-buttons">
         <div class="col-md-6">
-            <button>
-                <router-link to="/arrival">
-                    <span v-lang.categories.navigation.arrival></span>
-                </router-link>
-            </button>
+            <router-link to="/arrival">
+                <button>
+                        <span v-lang.categories.navigation.arrival></span>
+                </button>
+            </router-link>
         </div>
         <div class="col-md-6">
-            <button>
-                <router-link to="/departure">
+            <router-link to="/departure">
+                <button>
                     <span v-lang.categories.navigation.departure></span>
-                </router-link>
-            </button>
+                </button>
+            </router-link>
         </div>
     </div>
 </div>
@@ -55,14 +55,15 @@ export default {
     background-color:#fc5b5a;
     border:none;
     padding:20px 50px;
+    cursor: pointer;
 }
-.header-buttons button:hover {
+.header-buttons a:hover {
    opacity: 0.9;
 }
-.header-buttons button:focus {
+.header-buttons a:focus {
    outline: none;
 }
-.header-buttons button>a {
+.header-buttons a>button {
     font-size:1.5em;
     color:#FFF;
     text-transform: uppercase;

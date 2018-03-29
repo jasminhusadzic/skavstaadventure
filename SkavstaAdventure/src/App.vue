@@ -4,22 +4,29 @@
           <app-nav></app-nav> 
       </div>
       <div class="container-fluid top-section">
-          <app-header></app-header>
+          <app-header v-if="$route.name == 'Home'"></app-header>
       </div>
       <div class="container-fluid middle-section">
           <router-view></router-view> 
+      </div>
+      <div class="container-fluid footer-section">
+          <app-footer></app-footer>
       </div>
   </div>
 </template>
 
 <script>
-import Header from './components/header'
+
 import Navigation from './components/navigation'
+import Header from './components/header'
+import Footer from './components/footer'
+
 export default {
   name: 'App',
   components : {
     'app-nav': Navigation,
-    'app-header': Header
+    'app-header': Header,
+    'app-footer':Footer
   },
      data() { return {
 
@@ -29,6 +36,9 @@ export default {
 </script>
 
 <style>
+html{
+  font-size: 16px;
+}
 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -38,8 +48,9 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-.navigation{
+  .navigation{
  margin-top:-55px;
+ font-size: 0.9em;
 }
 
 .top-section{
@@ -52,9 +63,9 @@ export default {
   background-size: cover
 }
 
-.bg-info{
-  background-color: transparent !important;
-  text-transform: uppercase;
+
+#__BVID__13__BV_button_ span{
+    text-transform: lowercase !important;
 }
 
 </style>
