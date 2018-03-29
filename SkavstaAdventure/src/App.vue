@@ -1,10 +1,6 @@
 <template>
   <div id="app">
       <div class="container-fluid navigation">
-          <div class="language-bar">
-            <a v-lang.language="'EN'" @click="language = 'en'"></a> /
-            <a v-lang.language="'SR'" @click="language = 'sr'"></a>
-          </div>
           <app-nav></app-nav> 
       </div>
       <div class="container-fluid top-section">
@@ -55,18 +51,10 @@ export default {
   -o-background-size: cover;
   background-size: cover
 }
+
 .bg-info{
   background-color: transparent !important;
-}
-.language-bar {
-  position: absolute;
-  top:20px;
-  right:20px;
-  color:#000;
-  font-size: 0.9em;
-}
-.language-bar a {
-  cursor: pointer;
+  text-transform: uppercase;
 }
 
 </style>
