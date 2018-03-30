@@ -19,6 +19,9 @@ export default {
 	home : {
 		homeHeading :'Popularni proizvodi'
 	},
+	contact:{
+		contactHeading :'Stupite u kontakt'
+	},
 	footer:{
 		footerHeading:'Da li želite prvo da čujete naše vijesti? Pridružite se našem biltenu',
 		footerLink:'ovdje'

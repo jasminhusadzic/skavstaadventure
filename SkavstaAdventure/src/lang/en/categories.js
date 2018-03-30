@@ -18,6 +18,9 @@ export default {
 		home : {
 			homeHeading :'Popular products'
 		},
+		contact:{
+			contactHeading :'Get in touch'
+		},
 		footer:{
 			footerHeading:'Do you want to hear our news first? Join our newsletter',
 			footerLink:'here'
