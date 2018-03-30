@@ -1,6 +1,6 @@
 <template>
 <div class="container"> 
-   <iframe seamless="" width="100%" height="1000px" frameborder="0" class="rezdy" src="https://skavstaadventure.rezdy.com/catalog/185868/multiday-tours?iframe=true&targetFrame=_new_modal"></iframe>
+   <iframe seamless="" width="100%" height="850px" frameborder="0" class="rezdy" src="https://skavstaadventure.rezdy.com/catalog/185868/multiday-tours?iframe=true&targetFrame=_new_modal"></iframe>
 </div>
 </template>
 <script>

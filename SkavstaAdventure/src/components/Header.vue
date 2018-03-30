@@ -6,14 +6,14 @@
         </div>
     </div>
     <div class="row header-buttons">
-        <div class="col-md-6">
+        <div class="col-md-6 text-center">
             <router-link to="/arrival">
                 <button>
                         <span v-lang.categories.navigation.arrival></span>
                 </button>
             </router-link>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 text-center">
             <router-link to="/departure">
                 <button>
                     <span v-lang.categories.navigation.departure></span>
@@ -38,8 +38,8 @@ export default {
 <style scoped>
 .main-heading {
     color:#FFF;
-    font-family: 'Josefin Sans', sans-serif;
     padding-top: 50px;
+    text-align: center;
     
 }
 .main-heading>p {

@@ -1,6 +1,11 @@
 <template>
-    <div class="row">
-        
+    <div class="container">
+        <div class="row popular-products">
+            <div class="col-md-12 text-center">
+                <h4 v-lang.categories.home.homeHeading></h4>
+                <iframe seamless="" width="100%" height="400px" frameborder="0" class="rezdy" src="https://skavstaadventure.rezdy.com/carouselWidget/?iframe=true&max=20"></iframe>
+            </div>
+        </div>
     </div>
 </template>
 <script>
@@ -16,5 +21,14 @@ export default {
 
 </script>
 <style scoped>
-
+.container {
+    border-bottom: 1px solid hsla(0,0%,82%,.5);
+}
+iframe {
+    margin-top:40px;
+}
+.popular-products {
+    margin-top: 40px;
+    color:#fc5b5a;
+}
 </style>
