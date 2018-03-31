@@ -19,7 +19,11 @@ export default {
 			homeHeading :'Popular products'
 		},
 		contact:{
-			contactHeading :'Get in touch'
+			contactHeading :'Get in touch',
+			labelName:'Name',
+			labelEmail:'E-mail',
+			labelMessage:'Enter something',
+			button:'Send'
 		},
 		footer:{
 			footerHeading:'Do you want to hear our news first? Join our newsletter',

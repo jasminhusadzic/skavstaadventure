@@ -20,7 +20,11 @@ export default {
 		homeHeading :'Popularni proizvodi'
 	},
 	contact:{
-		contactHeading :'Stupite u kontakt'
+		contactHeading :'Stupite u kontakt',
+		labelName:'Ime',
+		labelEmail:'Elektronska pošta',
+		labelMessage:'Upišite vašu poruku',
+		button:'Pošalji'
 	},
 	footer:{
 		footerHeading:'Da li želite prvo da čujete naše vijesti? Pridružite se našem biltenu',

@@ -7,13 +7,13 @@
             </div>
         </div>
         <div class="row contact-info">
-            <div class="col-md-6 text-left">
+            <div class="col-md-6 text-sm-center text-md-left">
                 <p>SkavstaAdventure.</p>
                 <p>MerAktiv i Sverige AB</p>
                 <p>Beckasinvägen 10</p>
                 <p>611 62 Nykoping, Sweden</p>
             </div>
-            <div class="col-md-6 text-right">
+            <div class="col-md-6 text-sm-center text-md-right">
                 <p>Tel: +46 704 66 80 90</p>
                 <p><span>Email:</span><a href="mailto:info@skavstaadventure.se"> info@skavstaadventure.se</a></p>
                 <img  src="../assets/logo-footer.png" height="80" alt="Logo">
