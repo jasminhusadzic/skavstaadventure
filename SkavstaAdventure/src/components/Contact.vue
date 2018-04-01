@@ -1,5 +1,11 @@
 <template>
-<div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h3 v-lang.categories.contact.aboutUs></h3>
+            <p class="text-justify" v-lang.categories.contact.aboutUsContent></p>
+        </div>
+    </div>
 
 </div>
 </template>
@@ -16,5 +22,8 @@ export default {
 
 </script>
 <style scoped>
-
+.row{
+    margin-top: 25px;
+    font-size: 0.9em;
+}
 </style>

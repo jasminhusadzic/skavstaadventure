@@ -24,7 +24,9 @@ export default {
 		labelName:'Ime',
 		labelEmail:'Elektronska pošta',
 		labelMessage:'Upišite vašu poruku',
-		button:'Pošalji'
+		button:'Pošalji',
+		aboutUs:'O nama',
+		aboutUsContent:'Prodajemo, pakujemo i vodimo vas na području Stokholma. Aktivni odmor na otvorenom u Švedskoj, naš posao je da vas izvučemo u divljinu. Naši gosti su uglavnom iz inostranstva koji leti za Švedsku. Radimo iz Arlande i Skavste. Naša baza je Nyköping / Trosa i za vas posetite nam pomažemo u organizaciji prevoza do kuda počinjemo avanturu. Ako vozite automobilom ili motociklom ili vozom, to uopće nije problem. Većina naših biciklističkih i planinarskih paketa naša samo-vođena, ali naši kajak turniri su uvek sa iskusnim vodičem.'
 	},
 	footer:{
 		footerHeading:'Da li želite prvo da čujete naše vijesti? Pridružite se našem biltenu',

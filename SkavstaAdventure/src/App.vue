@@ -45,6 +45,9 @@ export default {
 html{
   font-size: 16px;
 }
+p{
+    color:rgb(137,137,137);
+}
 
 #app {
   font-family: 'Roboto', sans-serif;

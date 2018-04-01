@@ -34,10 +34,13 @@ export default {
     color:#FFF;
     font-size: 0.9em;
     position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.header-arrival p {
+    color:#FFF;
 }
 .header-arrival>.row>.col-md-8{
     background: rgba(0, 0, 0, 0.7);

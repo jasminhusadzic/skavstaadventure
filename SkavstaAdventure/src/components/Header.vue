@@ -37,12 +37,13 @@ export default {
 </script>
 <style scoped>
 .main-heading {
-    color:#FFF;
+     
     padding-top: 50px;
     text-align: center;
     
 }
 .main-heading>p {
+    color:#FFF;
     font-size: 4em;
     font-weight: 700;
     text-shadow: 2px 2px #000;
