@@ -29,6 +29,5 @@ iframe {
 }
 .popular-products {
     margin-top: 40px;
-    color:#fc5b5a;
 }
 </style>

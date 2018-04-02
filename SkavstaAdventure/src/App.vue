@@ -7,6 +7,8 @@
           <app-header v-if="$route.name == 'Home'"></app-header>
           <app-header-arrival v-if="$route.name == 'Arrival'"></app-header-arrival>
           <app-header-contact v-if="$route.name == 'Contact'"></app-header-contact>
+          <app-header-departure v-if="$route.name == 'Departure'"></app-header-departure>
+          <app-header-information v-if="$route.name == 'Information'"></app-header-information>
       </div>
       <div class="container-fluid middle-section">
           <router-view></router-view> 
@@ -23,6 +25,8 @@ import Navigation from './components/navigation'
 import Header from './components/header'
 import HeaderArrival from './components/headerarrival'
 import HeaderContact from './components/headercontact'
+import HeaderDeparture from './components/headerdeparture'
+import HeaderInformation from './components/headerinformation'
 import Footer from './components/footer'
 
 export default {
@@ -32,7 +36,10 @@ export default {
     'app-header': Header,
     'app-footer':Footer,
     'app-header-arrival':HeaderArrival,
-    'app-header-contact':HeaderContact
+    'app-header-contact':HeaderContact,
+    'app-header-departure':HeaderDeparture,
+    'app-header-information':HeaderInformation
+    
   },
      data() { return {
 
