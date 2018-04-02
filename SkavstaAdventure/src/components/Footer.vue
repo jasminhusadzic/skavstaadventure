@@ -36,6 +36,7 @@ export default {
 <style scoped>
 .container {
     margin-top:20px;
+    clear: both;
 }
 .contact-info,
 .newsletter {

@@ -31,7 +31,8 @@ export default {
 	departure:{
 		departureHeading:'Avantura svuda',
 		textOne:'Aerodrom Stokholm Skavsta ima letove širom svijeta i sa našim švedskim vodičima i lokalnim stručnjacima napravili smo neobične ture izvan glavnih ulica Evrope. Pridružite nam se za avanturu svog života.',
-		textTwo:'Dole navedene ture možete napraviti i za grupe, kontaktirajte nas za više informacija, datume i cijene.'
+		textTwo:'Dole navedene ture možete napraviti i za grupe, kontaktirajte nas za više informacija, datume i cijene.',
+		departureTour:'Ture i avanture'
 	},
 	footer:{
 		footerHeading:'Da li želite prvo da čujete naše vijesti? Pridružite se našem biltenu',

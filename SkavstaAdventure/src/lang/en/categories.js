@@ -30,7 +30,8 @@ export default {
 		departure:{
 			departureHeading:'Adventure everywhere',
 			textOne:'Stockholm Skavsta Airport has flights all over the world and with our swedish guides and local experts we have made some extra ordinary tours outside the main streets of Europe. Join us for an adventure of your life.',
-			textTwo:'Tours below can also be made for groups, contact us for more information , dates and prices.'
+			textTwo:'Tours below can also be made for groups, contact us for more information , dates and prices.',
+			departureTour:'Tours and adventures'
 		},
 		footer:{
 			footerHeading:'Do you want to hear our news first? Join our newsletter',
