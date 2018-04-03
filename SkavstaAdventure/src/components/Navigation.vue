@@ -11,8 +11,8 @@
             <b-nav-item to="/information"><span v-lang.categories.navigation.information></span></b-nav-item>
             <b-nav-item to="/contact"><span v-lang.categories.navigation.contact></span></b-nav-item>
             <b-nav-item-dropdown v-bind:text="language" right>
+                <b-dropdown-item v-lang.language="'SV'" @click="language = 'sv'"></b-dropdown-item>
                 <b-dropdown-item v-lang.language="'EN'" @click="language = 'en'"></b-dropdown-item>
-                <b-dropdown-item v-lang.language="'SR'" @click="language = 'sr'"></b-dropdown-item>
             </b-nav-item-dropdown>
         </b-navbar-nav>
     </b-collapse>

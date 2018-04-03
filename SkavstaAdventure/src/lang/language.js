@@ -1,8 +1,8 @@
 import en from './en/index'
-import sr from './sr/index'
+import sv from './sv/index'
 
 export default {
-    default : 'en',
-	en: en,
-	sr: sr
+	default : 'sv',
+	sv: sv,
+	en: en	
 }

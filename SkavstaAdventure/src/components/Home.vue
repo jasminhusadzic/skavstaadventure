@@ -3,7 +3,7 @@
         <div class="row popular-products">
             <div class="col-md-12 text-center">
                 <h4 v-lang.categories.home.homeHeading></h4>
-                <iframe seamless="" width="100%" height="400px" frameborder="0" class="rezdy" src="https://skavstaadventure.rezdy.com/carouselWidget/?iframe=true&max=20"></iframe>
+                <iframe seamless="" width="100%" height="400px" frameborder="0" class="rezdy" :src="path+language"></iframe>
             </div>
         </div>
     </div>
@@ -14,7 +14,7 @@ export default {
     name: 'Home',
     data(){
         return {
-            path : 'Home'
+            path : 'https://skavstaadventure.rezdy.com/carouselWidget/?iframe=true&max=20&lang='
         }
     }
 }
