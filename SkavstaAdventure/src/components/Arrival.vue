@@ -1,7 +1,7 @@
 <template>
 <div class="container"> 
    <iframe seamless="" width="100%" height="850px" frameborder="0" class="rezdy" :src="path+language"></iframe>
-<div>{{language}}</div>
+   
 </div>
 </template>
 <script>
