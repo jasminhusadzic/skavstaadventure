@@ -71,11 +71,11 @@
                 <li v-lang.categories.information.rightsList.textSix></li>
                 <li v-lang.categories.information.rightsList.textSeven></li>
                 <li v-lang.categories.information.rightsList.textEight></li>
-                <li v-lang.categories.information.rightsList.textNine></li>
-                <li v-lang.categories.information.rightsList.textTen></li>
-                <li v-lang.categories.information.rightsList.textEleven></li>
-                <li v-lang.categories.information.rightsList.textTwelve></li>
-                <li v-lang.categories.information.rightsList.textThirteen></li>
+                <li v-if="language=='en'" v-lang.categories.information.rightsList.textNine></li>
+                <li v-if="language=='en'" v-lang.categories.information.rightsList.textTen></li>
+                <li v-if="language=='en'" v-lang.categories.information.rightsList.textEleven></li>
+                <li v-if="language=='en'" v-lang.categories.information.rightsList.textTwelve></li>
+                <li v-if="language=='en'" v-lang.categories.information.rightsList.textThirteen></li>
             </ul>
         </div>
         <div class="col-md-12">

@@ -17,22 +17,22 @@
                     <div class="col-md-6 col-sm-12 text-center">
                         <h3 v-lang.categories.headerArrival.welcome></h3>
                         <div>
-                        <b-form @submit="onSubmit" action="https://formspree.io/jasmin.husadzic@gmail.com">
+                        <b-form  @submit="onSubmit">
                             <b-form-group>
                                 <label for="name" v-lang.categories.contact.labelName></label>  
-                                <b-form-input name="Name" v-model="form.name"
+                                <b-form-input id="name" v-model="form.name"
                                         type="text">
                                 </b-form-input>
                             </b-form-group>
                             <b-form-group>
                                 <label for="email" v-lang.categories.contact.labelEmail></label>         
-                                <b-form-input id="email" name="_replyto" v-model="form.email"
+                                <b-form-input id="email" v-model="form.email"
                                         type="email">
                                 </b-form-input>
                             </b-form-group>
                             <b-form-group>
                                 <label for="textarea1" v-lang.categories.contact.labelMessage></label>        
-                                <b-form-textarea name="Message" id="textarea1"
+                                <b-form-textarea id="textarea1"
                                         v-model="form.message"
                                         :rows="3"
                                         :max-rows="6">
@@ -62,9 +62,17 @@ export default {
         }
     },
     methods:{
-            onSubmit (evt) {
+            onSubmit (evt) { 
             evt.preventDefault();
-            console.log(JSON.stringify(this.form));
+            var name = this.form.name
+            var email = this.form.email
+            var message = this.form.message
+            if (!name || !email || !message){
+                alert('Please insert data in all field\'s')
+            }else{
+                emailjs.send("send_one_com","template_xMg4cd9a",{name: name, message: message, email: email});
+                evt.target.reset();
+            }
         }
     }
 }
