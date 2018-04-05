@@ -9,33 +9,40 @@
         <div class="row">
             <div class="col-md-4">
                 <figure class="figure">
-                    <a href="../../static/pdf/pdf-one.pdf" target="_blank"><img src="../../static/gallery/gallery-one.jpg" alt="photo" class="figure-img img-fluid rounded"></a>
-                    <figcaption class="figure-caption text-center">Forsränning på Tara-floden 3-6/5 2018</figcaption>
+                    <a href="../../static/pdf/pdf-one.pdf" target="_blank"><img :src="galleryOne" alt="photo" class="figure-img img-fluid rounded"></a>
+                    <figcaption v-if="language=='sv'" class="figure-caption text-center">{{ pdfName.sv.pdfOne }}</figcaption>
+                    <figcaption v-if="language=='en'" class="figure-caption text-center">{{ pdfName.en.pdfOne }}</figcaption>
                 </figure>
             </div>
             <div class="col-md-4">
                 <figure class="figure">
-                    <a href="../../static/pdf/pdf-two.pdf" target="_blank"><img src="../../static/gallery/gallery-two.jpg" alt="photo" class="figure-img img-fluid rounded"></a>
-                    <figcaption class="figure-caption text-center">Enduro-motorcykel på Balkans grusvägar September 2018</figcaption>
+                    <a href="../../static/pdf/pdf-two.pdf" target="_blank"><img :src="galleryTwo" alt="photo" class="figure-img img-fluid rounded"></a>
+                    <figcaption v-if="language=='sv'" class="figure-caption text-center">{{ pdfName.sv.pdfTwo }}</figcaption>
+                    <figcaption v-if="language=='en'" class="figure-caption text-center">{{ pdfName.en.pdfTwo }}</figcaption>
                 </figure>
             </div>
             <div class="col-md-4">
                 <figure class="figure">
-                    <a href="../../static/pdf/pdf-three.pdf" target="_blank"><img src="../../static/gallery/gallery-three.jpg" alt="photo" class="figure-img img-fluid rounded"></a>
-                    <figcaption class="figure-caption text-center">Vandring och paddling i Durmitor Nationalpark September 2018</figcaption>
+                    <a href="../../static/pdf/pdf-three.pdf" target="_blank"><img :src="galleryThree" alt="photo" class="figure-img img-fluid rounded"></a>
+                    <figcaption v-if="language=='sv'" class="figure-caption text-center">{{ pdfName.sv.pdfThree }}</figcaption>
+                    <figcaption v-if="language=='en'" class="figure-caption text-center">{{ pdfName.en.pdfThree }}</figcaption>
                 </figure>
             </div>
         </div>
 </div>
 </template>
 <script>
+import names from '../../static/pdf/data.json'
 
 export default {
     name: 'Departure',
 
     data(){
         return {
-
+            pdfName:names,
+            galleryOne:'../../static/gallery/gallery-one.jpg',
+            galleryTwo:'../../static/gallery/gallery-two.jpg',
+            galleryThree:'../../static/gallery/gallery-three.jpg',
         }
     }
 }
@@ -48,4 +55,5 @@ export default {
 .departure h4{
     margin-bottom: 25px;
 }
+
 </style>
