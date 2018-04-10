@@ -14,7 +14,7 @@ export default {
     name: 'Home',
     data(){
         return {
-            path : 'https://skavstaadventure.rezdy.com/carouselWidget/?iframe=true&max=20&lang='
+            path : 'https://skavstaadventure.rezdy.com/carouselWidget/185868?iframe=true&lang='
         }
     }
 }
