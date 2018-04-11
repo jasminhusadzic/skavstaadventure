@@ -5,13 +5,13 @@
                     <h3 v-lang.categories.navigation.information></h3>
                 </div>
                 <div class="col-6 col-md-4 text-center">
-                    <img class="img-fluid" src="../assets/header-departure.png" alt="Sample picture">
+                    <!--<img class="img-fluid" src="../assets/header-departure.png" alt="Sample picture">-->
                 </div>
                 <div class="col-6 col-md-4  text-center">
-                   <img class="img-fluid" src="../assets/header-departure.png" alt="Sample picture">
+                  <!-- <img class="img-fluid" src="../assets/header-departure.png" alt="Sample picture">-->
                 </div>
                 <div class="col-6 offset-3 mt-2 col-sm-6 mt-md-0 offset-md-0  col-md-4  text-center">
-                   <img class="img-fluid" src="../assets/header-departure.png" alt="Sample picture">
+                   <!--<img class="img-fluid" src="../assets/header-departure.png" alt="Sample picture">-->
                 </div>
             </div>
 </div>
