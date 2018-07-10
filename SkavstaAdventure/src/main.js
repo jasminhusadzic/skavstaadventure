@@ -8,7 +8,10 @@ import MultiLanguage from 'vue-multilanguage'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import language from './lang/language'
+import StoryblokVue from 'storyblok-vue'
 
+
+Vue.use(StoryblokVue)
 Vue.use( MultiLanguage, language )
 
 Vue.config.productionTip = false
