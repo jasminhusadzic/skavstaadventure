@@ -1,7 +1,7 @@
 <template>
   <div id="app">
       <div class="container-fluid navigation">
-          <app-nav></app-nav> 
+          <app-nav> </app-nav> 
       </div>
       <div class="container-fluid top-section">
           <app-header v-if="$route.name == 'Home'"></app-header>
